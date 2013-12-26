@@ -1,0 +1,194 @@
+@font-face{
+	font-family: 'Digital';
+	src:url(digital.ttf);
+}
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family: 'Digital';
+}
+
+
+table.parciales > thead > tr > th{	
+	background-color: darkblue;
+	color: white;
+	border: 1px solid white;}
+
+@media screen and (max-width:1200px){
+			div.cronometro{
+			width:713px;
+			height:303px;
+			background:url(../img/crono.png) no-repeat;
+			padding-top: 35px;
+			padding-left: 35px;
+			margin:0 auto;
+		}
+		div.cronometro > div.marcador{
+			position: relative;
+			background-color:black;
+			width: 690px;
+			height:199px;
+			color:red;
+			
+		}
+		input#crono{
+			font-family: 'Digital';
+			font-size: 183px;
+			width: 690px;
+			display: block;
+			border:none;
+			background-color:black;
+			color:lime; 
+			padding-top: 8px;
+			height: 180px;
+		}
+		table.parciales{
+			position: absolute;
+			top:100px;
+			float: right;
+			margin-right: 100px;
+		}
+		div.botoneraPrincipal{
+			width:800px;
+			margin:0 auto;
+		}
+		.button{
+			cursor:pointer;
+			zoom:2;
+			text-align: center;
+		}
+}
+@media screen and (min-width:1200px){
+			div.cronometro{
+			width:713px;
+			height:303px;
+			background:url(../img/crono.png) no-repeat;
+			padding-top: 35px;
+			padding-left: 35px;
+			margin:0 auto;
+		}
+		div.cronometro > div.marcador{
+			position: relative;
+			background-color:black;
+			width: 690px;
+			height:199px;
+			color:red;
+			
+		}
+		input#crono{
+			font-family: 'Digital';
+			font-size: 183px;
+			width: 690px;
+			display: block;
+			border:none;
+			background-color:black;
+			color:lime; 
+			padding-top: 8px;
+			height: 180px;
+		}
+		table.parciales{
+			position: relative;
+			float: right;
+			margin-top: -340px;
+			margin-right: 100px;
+		}
+		div.botoneraPrincipal{
+			width:800px;
+			margin:0 auto;
+		}
+		.button{
+			cursor:pointer;
+			zoom:2;
+			text-align: center;
+		}
+}
+@media screen and (max-width:480px){
+			div.cronometro{
+			width:400px;
+			height:303px;
+			background:url(../img/cronoMovil.png) no-repeat;
+			padding-top: 35px;
+			padding-left: 35px;
+			margin:0 auto;
+			
+		}
+		div.cronometro > div.marcador{
+			position: relative;
+			background-color:black;
+			width: 742px;
+			height:211px;
+			color:red;
+			zoom:0.5;
+			margin-top:-32px;
+			margin-left: -32px;
+			
+		}
+		input#crono{
+			font-family: 'Digital';
+			font-size: 183px;
+			width: 690px;
+			display: block;
+			border:none;
+			background-color:black;
+			color:lime; 
+			padding-top: 8px;
+			height: 180px;
+			text-align: center;
+			padding-left: 20px;
+			
+		}
+		table.parciales{
+			position: relative;
+			margin:0 auto;
+			width: 200px;
+			margin-top: -100px;
+			margin-right: 100px;
+			
+		}
+		div.botoneraPrincipal{
+			width:400px;
+			margin:0 auto;
+			
+		}
+		.button{
+			cursor:pointer;
+			zoom:0.8;
+			text-align: center;
+		}
+}
+
+
+#botonArrancar{
+	min-width:100px;
+	min-height:100px;
+	background:url(../img/botonPlay.png) no-repeat;
+	float:left;
+	content:'';
+
+}
+#botonParar{
+	min-width:100px;
+	min-height:100px;
+	background:url(../img/botonStop.png) no-repeat;
+	float:left;
+	content:'';
+
+}
+#botonInicializar{
+	min-width:100px;
+	min-height:100px;
+	background:url(../img/botonInicializar.png) no-repeat;
+	float:left;
+	content:'';
+
+}
+#botonParcialesCrono{
+	min-width:100px;
+	min-height:100px;
+	background:url(../img/botonParcial.png) no-repeat;
+	float:left;
+	content:'';
+
+}

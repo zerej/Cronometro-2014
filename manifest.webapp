@@ -1,0 +1,12 @@
+{
+	"version":"1.1",
+	"author":"José Vázquez",
+	"name": "Cronómetro",
+	"description":"Utilidad para realizar mediciones en el tiempo. Apurando hasta la centésima.",
+	"launch_path": "/index.html",
+	"orientation":["landscape"],
+	"icons":{
+		"60":"/img/cronoLogo60.png",
+		"128": "/img/cronoLogo128.png"
+	}
+}

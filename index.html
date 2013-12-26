@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Módulo 8 - Ejercicio Obligatorio - Cronómetro</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, User-scalable=yes">
+	<script type="text/javascript" src="js/zepto.js"></script>
+	<script type="text/javascript" src="js/touch.js"></script>
+
+	<script type="text/javascript" src="js/main.js"></script>
+
+	<script>
+	$(function(){
+		eventosTactiles();
+	})
+	
+
+	</script>
+
+</head>
+<body>
+	
+	<h2>Cronómetro</h2>
+
+	<div class="cronometro">
+		<div class="marcador">
+			<input   id="crono"type="text" name="display" value="00:00:00"></input>
+		</div>
+		
+	</div>
+
+	<div class="reset" style="height:50px;"></div>
+	<div class="botoneraPrincipal">
+		<div class="button" id="botonArrancar" onClick="javascript:void(0);arrancarCrono();">Arrancar</div>
+		<div class="button" id="botonParar" onClick="javascript:void(0);pararCrono();">Parar</div>
+		<div class="button" id="botonParcialesCrono" onClick="javascript:void(0);parcialesCrono();">Parcial</div>
+		<div class="button" id="botonInicializar" onClick="javascript:void(0);inicializarCrono();">Inicializar</div>
+	</div>
+	
+
+	<table class="parciales">
+		<thead>
+			<tr>
+				<th>Parcial</th><th>Tiempo</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
